@@ -8,7 +8,7 @@
             
     
         body {
-            background-image: url('images/background.jpg');
+            background-image: url('images/background2.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
@@ -19,7 +19,7 @@
         header {
             margin: -8;
             padding: 0;
-            background: #222;
+            background: #002266;
             font-family: Courier;
             color: white;
             font-weight: bold;
@@ -44,25 +44,30 @@
             margin-right: 10px;
         }
     
-        .right-element {
+        .topnav {
             flex: 1;
             text-align: right;
+			display: inline-block; 
+			vertical-align: middle; 
+			font-size: 50px;
         }
 
         .container{
-            background-color: rgba(100, 100, 100, 0.7);
+            background-color: rgba(0, 50, 90, 1.0);
             width: 70%;
             padding: 10;
             margin-top: 8;
         }
 
+
         footer {
             margin: -8;
-            padding: 50;
-            background-color: #222;
+            padding: 30;
+            background: #002266;
             color: white;
-            font-family: Courier;
+			font-family: Courier;
         }
+
 
         table {
             font-family: 'Courier New', Courier, monospace;
@@ -70,7 +75,7 @@
             border-collapse: collapse;
             width: 100%;
             text-align: justify;
-        }
+			}
 
         td, th {
             border: 1px solid #dddddd;
@@ -101,39 +106,16 @@
 
             </div>
 
-            <div class="right-element">
+            <div class="topnav">
 
-                <ul>
-                    <li style="display: inline-block; vertical-align: middle; font-size: 25px;">
-                        <a href="Homepage.html" style="color:white; text-decoration: none; margin-right: 30px">
-                            Home
-                        </a>
-                    </li>
-
-                    <li style="display: inline-block; vertical-align: middle; font-size: 25px;">
-                        <a href="History of Computers.html" style="color:white; text-decoration: none; margin-right: 30px">
-                            History
-                        </a>
-                    </li>
-
-                    <li style="display: inline-block; vertical-align: middle; font-size: 25px;">
-                        <a href="Computer Parts.html" style="color:white; text-decoration: none; margin-right: 30px">
-                            Parts
-                        </a>
-                    </li>
-
-                    <li style="display: inline-block; vertical-align: middle; font-size: 25px;">
-                        <a href="Programming Languages.html" style="color:white; text-decoration: none; margin-right: 30px">
-                            Languages
-                        </a>
-                    </li>
-
-                    <li style="display: inline-block; vertical-align: middle; font-size: 25px;">
-                        <a href="Computer Brands.html" style="color:white; text-decoration: none; margin-right: 30px">
-                            Brands
-                        </a>
-                    </li>
-                </ul>
+                <a href="Homepage.html" style="display: inline-block; vertical-align: middle; font-size: 25px; color:white; text-decoration: none; class="active">Home</a>
+				<a href="History of Computers.html" style="display: inline-block; vertical-align: middle; font-size: 25px; color:white; text-decoration: none; class="active">History</a>
+				<a href="Computer Parts.html" style="display: inline-block; vertical-align: middle; font-size: 25px; color:white; text-decoration: none; class="active">Parts</a>
+				<a href="Programming Languages.html" style="display: inline-block; vertical-align: middle; font-size: 25px; color:white; text-decoration: none; class="active">Languages</a>
+				<a href="Computer Brands.html" style="display: inline-block; vertical-align: middle; font-size: 25px; color:white; text-decoration: none; class="active">Brands</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
                 
                 
             </div>
@@ -219,33 +201,36 @@
             
         </center>
 
-        <footer>
-            <p style="font-size: 25;">
-                About Us
-            </p>
-
-            <p style="font-size: 15;">
-                Coding: Ram Cordero
-                <br>
-                Research: Robert Munar
-                <br>
-                <br>
-            
-                Grade 12
-                <br>
-                Pope Pius X
-                <br>
-                <br>
-
-                School Year 2023-2024
-
-                
-            </p>
-
-        </footer>
+        
     </body>
 
-    
+    <footer>
+        <p style="font-size: 25;">
+            About Us
+        </p>
+
+        <p style="font-size: 15;">
+            Coding: Ram Cordero
+            <br>
+            Research: Robert Munar
+            <br>
+            <br>
+            
+            Grade 12
+            <br>
+            Pope Pius X
+            <br>
+            <br>
+
+            School Year 2023-2024
+
+
+        </p>
+
+        <br>
+        <br>
+
+    </footer>
 
 
 </html>
